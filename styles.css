@@ -1,0 +1,48 @@
+.räknare {
+    background-color: cyan;
+    height: 20em;
+    width: 15em;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    align-items: center;
+    justify-content: flex-start;
+    margin: auto;
+
+}
+
+.knapp {
+   background-color: rgb(203, 203, 203);
+   padding: 1em;
+   border-radius: 1em;
+   margin: 0.75em;
+
+}
+
+.knapp-active {
+   background-color: rgb(253, 154, 251);
+   padding: 1em;
+   border-radius: 1em;
+   margin: 0.75em;
+
+}
+
+.display {
+   display: flex;
+   justify-content: flex-end;
+   background-color: rgb(203, 203, 203);
+   width: 12em;
+   padding: 1em;
+   border-radius: 2em;
+   margin: 0.2em;
+
+}
+
+.knappar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
